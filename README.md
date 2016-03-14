@@ -9,6 +9,11 @@ Elijo este formato en lugar de utilizar un wiki por dos motivos:
 + Permite apreciar la evolución histórica del documento.
 + Resulta conveniente y oportuno para ejercitar nuestro workflow basado en github.
 
+## Objetivo
+
+Nos proponemos adoptar mejores prácticas, procesos, cultura y metodología tomados del movimiento open source para aplicarlos al desarrollo de software en el sector público.
+
+De manera similar a como el movimiento [inner source](http://paypal.github.io/InnerSourceCommons/index.html) refresca las prácticas en las empresas privadas en pos aumentar su eficiencia y calidad, nos valemos de estos recursos para ganar en economía, agilidad y calidad en el estado.
 
 ## Filosofía
 
