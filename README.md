@@ -1,5 +1,4 @@
-# manual
-Documentación viva de nuestra metodología de trabajo.
+# Manual
 
 Este es un documento vivo que describe workflows, herramientas y otras yerbas en torno a nuestra forma de trabajar desde el desarrollo hasta la implementación continua.
 
@@ -13,7 +12,7 @@ Elijo este formato en lugar de utilizar un wiki por dos motivos:
 
 Nos proponemos adoptar mejores prácticas, procesos, cultura y metodología tomados del movimiento open source para aplicarlos al desarrollo de software en el sector público.
 
-De manera similar a como el movimiento [inner source](http://paypal.github.io/InnerSourceCommons/index.html) refresca las prácticas en las empresas privadas en pos aumentar su eficiencia y calidad, nos valemos de estos recursos para ganar en economía, agilidad y calidad en el estado.
+De manera similar a como el movimiento [inner source](http://paypal.github.io/InnerSourceCommons/index.html) refrezca las prácticas en las empresas privadas en posde  aumentar su eficiencia y calidad, nos valemos de estos recursos para ganar en economía, agilidad y calidad en el estado.
 
 ## Filosofía
 
@@ -53,13 +52,13 @@ De manera similar a como el movimiento [inner source](http://paypal.github.io/In
 
 * 6º- Codeamos actualizando tests y documentación para reflejar los cambios.
 
-* 7º- Ejecutamos git push origin <nombredelbranch>.
+* 7º- Ejecutamos git push originnombredelbranch.
 
 * 8º- Se ejecutan una serie de validaciones automáticas.
 
 * 9º- Se crea pull request.
 
-* 10º- Se valida el código en e[travis.ci](servidor de integración).
+* 10º- Se valida el ódigo en el [travis.ci](servidor de integración).
 
 * 11º- Si todo anduvo bién, Juanito avisa a los responsables de realizar la revisión de pares.
 
