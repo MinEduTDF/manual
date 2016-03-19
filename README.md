@@ -35,36 +35,37 @@ De manera similar a como el movimiento [inner source](http://paypal.github.io/In
 
 ## Workflow
 
-1º- Le pedimos a Juanito que nos prepare un pipeline de entrega contínua para alguno de los siguientes tipos de proyectos:
-    + Módulo javascript.
-    + Aplicación javascript.
-    + Módulo php.
-    + Aplicación php.
-    + Módulo hubot.
+* 1º- Le pedimos a Juanito que nos prepare un pipeline de entrega contínua para alguno de los siguientes tipos de proyectos:
+    
+  * Módulo javascript.
+  * Aplicación javascript.
+  * Módulo php.
+  * Aplicación php.
+  * Módulo hubot.
 
-2º- Unos segundos después, Juanito nos provee la url del nuevo repositorio junto con instrucciones para empezar a trabajar.
+* 2º- Unos segundos después, Juanito nos provee la url del nuevo repositorio junto con instrucciones para empezar a trabajar.
 
-3º- Clonamos el repositorio.
+* 3º- Clonamos el repositorio.
 
-4º- Instalamos dependencias.
+* 4º- Instalamos dependencias.
 
-5º- Creamos un branch de nombre descriptivo.
+* 5º- Creamos un branch de nombre descriptivo.
 
-6º- Codeamos actualizando tests y documentación para reflejar los cambios.
+* 6º- Codeamos actualizando tests y documentación para reflejar los cambios.
 
-7º- Ejecutamos git push origin <nombredelbranch>.
+* 7º- Ejecutamos git push origin <nombredelbranch>.
 
-8º- Se ejecutan una serie de validaciones automáticas.
+* 8º- Se ejecutan una serie de validaciones automáticas.
 
-9º- Se crea pull request.
+* 9º- Se crea pull request.
 
-10º- Se valida el código en el servidor de integración (travis.ci).
+* 10º- Se valida el código en e[travis.ci](servidor de integración).
 
-11º- Si todo anduvo bién, Juanito avisa a los responsables de realizar la revisión de pares.
+* 11º- Si todo anduvo bién, Juanito avisa a los responsables de realizar la revisión de pares.
 
-12º- Una vez aprobada la pull request se publica una nueva versión, respetando versionado semántico, que se pone en producción automáticamente.
+* 12º- Una vez aprobada la pull request se publica una nueva versión, respetando versionado semántico, que se pone en producción automáticamente.
 
-13º- Juanito avisa que se ha publicado una nueva versión y felicita al autor.
+* 13º- Juanito avisa que se ha publicado una nueva versión y felicita al autor.
 
 ## Diseño / Experiencia de usuario
 
