@@ -18,7 +18,15 @@ De manera similar a como el movimiento [inner source](http://paypal.github.io/In
 
 ## Entrega contínua
 
-## Chat Ops
+## Operaciones
+
+La consigna es "automatizarlo todo". 
+
+Expresamos la infraestructura como código para ganar en reproducibilidad e integrar su evolución a nuestro flujo de trabajo cotidiano.
+
+Cultivamos la estrategia chat ops, tanto como herramienta de automatización como para mantener a todo el equipo en una misma página.
+
+Nuestro equipo de operaciones no hace prácticamente nada sobre la infraestructura en si misma. Su trabajo consiste en diseñarla y programar a Juanito (nuestro chat bot basado en hubot) para que haga el trabajo duro por nosotros.
 
 ## Arquitectura
 
