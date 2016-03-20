@@ -39,7 +39,7 @@ El objetivo es desarrollar una migración progresiva hacia una arquitectura de m
 
 Esto favorece la manejabilidad de los proyectos al dividirlos en módulos pequeños, bién documentados y testeados y agiliza las operaciones al tiempo que optimiza la utilización de recursos materiales.
 
-![Diagrama de prueba](http://knsv.github.io/mermaid/live_editor/#/view/c2VxdWVuY2VEaWFncmFtCkEtPj4gQjogUXVlcnkKQi0-PiBDOiBGb3J3YXJkIHF1ZXJ5Ck5vdGUgcmlnaHQgb2YgQzogVGhpbmtpbmcuLi4KQy0-PiBCOiBSZXNwb25zZQpCLT4-IEE6IEZvcndhcmQgcmVzcG9uc2UK)
+![Diagrama de prueba](https://cdn.rawgit.com/MinEduTDF/manual/master/diagram.svg)
 
 ## Dependencias
 
