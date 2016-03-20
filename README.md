@@ -39,7 +39,7 @@ El objetivo es desarrollar una migración progresiva hacia una arquitectura de m
 
 Esto favorece la manejabilidad de los proyectos al dividirlos en módulos pequeños, bién documentados y testeados y agiliza las operaciones al tiempo que optimiza la utilización de recursos materiales.
 
-![Diagrama de prueba](/diagram.svg)
+![Diagrama de prueba](https://raw.githubusercontent.com/MinEduTDF/manual/master/diagram.svg)
 
 ## Dependencias
 
