@@ -1,3 +1,24 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Manual](#manual)
+  - [Objetivo](#objetivo)
+  - [Filosofía](#filosof%C3%ADa)
+  - [Entrega contínua](#entrega-cont%C3%ADnua)
+  - [Operaciones](#operaciones)
+  - [Arquitectura](#arquitectura)
+  - [Dependencias](#dependencias)
+  - [Guías de estilo](#gu%C3%ADas-de-estilo)
+  - [Documentación](#documentaci%C3%B3n)
+  - [Tests](#tests)
+  - [Control de calidad](#control-de-calidad)
+  - [Workflow](#workflow)
+  - [Diseño / Experiencia de usuario](#dise%C3%B1o--experiencia-de-usuario)
+  - [Código de conducta](#c%C3%B3digo-de-conducta)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Manual
 
 Este es un documento vivo que describe workflows, herramientas y otras yerbas en torno a nuestra forma de trabajar desde el desarrollo hasta la implementación continua.
