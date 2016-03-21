@@ -17,7 +17,7 @@ De manera similar a como el movimiento [inner source](http://paypal.github.io/In
 ## Filosofía
 
 > “Escribe programas que hagan una cosa y la hagan bien, que trabajen en armonía con 
-> otros y que manejen flujos de texto, pues esta es una interfaz universal.” – Doug Mcllroy
+> otros y que manejen flujos de texto, pues esta es una interfaz universal.” – *Doug Mcllroy*
 
 ## Entrega contínua
 
@@ -29,7 +29,7 @@ Expresamos la infraestructura como código para ganar en reproducibilidad e inte
 
 Cultivamos la estrategia chat ops, tanto como herramienta de automatización como para mantener a todo el equipo en una misma página.
 
-Nuestro equipo de operaciones no hace prácticamente nada sobre la infraestructura en si misma. Su trabajo consiste en diseñarla y programar a Juanito (nuestro chat bot basado en hubot) para que haga el trabajo duro por nosotros.![Diagrama de prueba](https://cdn.rawgit.com/MinEduTDF/manual/master/datacenter.mmd.png)
+Nuestro equipo de operaciones no hace prácticamente nada sobre la infraestructura en si misma. Su trabajo consiste en diseñarla y programar a Juanito (nuestro chat bot basado en hubot) para que haga el trabajo duro por nosotros.![Datacenter](https://cdn.rawgit.com/MinEduTDF/manual/master/datacenter.mmd.png)
 
 
 ## Arquitectura
@@ -39,14 +39,14 @@ Actualmente se presentan dos tipos de aplicaciones monolíticas bién diferencia
 * Aplicaciones programadas desde cero, sin utilizar librerías ni patrones de diseño como MVC, ORM, etc.
 * Aplicaciones basadas en framework MVC más plugins.
 
-![Diagrama de prueba](https://cdn.rawgit.com/MinEduTDF/manual/master/monolitos.mmd.png)
+![Monolitos](https://cdn.rawgit.com/MinEduTDF/manual/master/monolitos.mmd.png)
 *El usuario interactua con una diversidad de interfaces.*
 
 El objetivo es desarrollar una migración progresiva hacia una arquitectura de microservicios fuertemente modularizada. Que se apoye sobre una gestión automatizada de dependencias y que presente al usuario una única interface que integra de manera transparente todos los servicios.
 
 Esto favorece la manejabilidad de los proyectos al dividirlos en módulos pequeños, bién documentados y testeados y agiliza las operaciones al tiempo que optimiza la utilización de recursos materiales.
 
-![Diagrama de prueba](https://cdn.rawgit.com/MinEduTDF/manual/master/microservicios.mmd.png)
+![Microservicios](https://cdn.rawgit.com/MinEduTDF/manual/master/microservicios.mmd.png)
 *Todos los servicios se integran en una única interface simplificando la tarea del usuario.*
 
 ## Dependencias
@@ -85,7 +85,7 @@ Esto favorece la manejabilidad de los proyectos al dividirlos en módulos peque�
 
 * 9º- Se crea pull request.
 
-* 10º- Se valida el ódigo en el [travis.ci](servidor de integración).
+* 10º- Se valida el ódigo en el [servidor de integracion](https://travis.ci).
 
 * 11º- Si todo anduvo bién, Juanito avisa a los responsables de realizar la revisión de pares.
 
