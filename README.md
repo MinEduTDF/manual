@@ -38,6 +38,9 @@ Actualmente se presentan dos tipos de aplicaciones monolíticas bién diferencia
 * Aplicaciones programadas desde cero, sin utilizar librerías ni patrones de diseño como MVC, ORM, etc.
 * Aplicaciones basadas en framework MVC más plugins.
 
+![Diagrama de prueba](https://cdn.rawgit.com/MinEduTDF/manual/master/monolitos.svg)
+*El usuario interactua con una diversidad de interfaces.*
+
 El objetivo es desarrollar una migración progresiva hacia una arquitectura de microservicios fuertemente modularizada. Que se apoye sobre una gestión automatizada de dependencias y que presente al usuario una única interface que integra de manera transparente todos los servicios.
 
 Esto favorece la manejabilidad de los proyectos al dividirlos en módulos pequeños, bién documentados y testeados y agiliza las operaciones al tiempo que optimiza la utilización de recursos materiales.
