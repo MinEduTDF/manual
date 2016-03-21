@@ -16,6 +16,9 @@ De manera similar a como el movimiento [inner source](http://paypal.github.io/In
 
 ## Filosofía
 
+> “Escribe programas que hagan una cosa y la hagan bien, que trabajen en armonía con 
+> otros y que manejen flujos de texto, pues esta es una interfaz universal.” – Doug Mcllroy
+
 ## Entrega contínua
 
 ## Operaciones
