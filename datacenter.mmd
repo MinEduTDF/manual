@@ -1,0 +1,22 @@
+graph LR
+subgraph Datacenter
+  subgraph Server1
+    CoreOS
+    Servicio1
+    ServicioN
+  end
+  subgraph ServerN
+    CoreOS'
+    Servicio1'
+    ServicioN'
+  end
+  rp["Reverse proxy"]-->Servicio1
+  rp["Reverse proxy"]-->ServicioN
+  rp["Reverse proxy"]-->Servicio1'
+  rp["Reverse proxy"]-->ServicioN'
+  cp["Control plane"]-->CoreOS
+  cp["Control plane"]-->CoreOS'
+  Juanito-->cp
+end
+Usuario-->rp
+Admin-->Juanito
