@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Manual by MinEduTDF</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Manual</h1>
+      <h2 class="project-tagline">Documentación viva de nuestra metodología de trabajo.</h2>
+      <a href="https://github.com/MinEduTDF/manual" class="btn">View on GitHub</a>
+      <a href="https://github.com/MinEduTDF/manual/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/MinEduTDF/manual/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="manual" class="anchor" href="#manual" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Manual</h1>
+
+<p>Este es un documento vivo que describe workflows, herramientas y otras yerbas en torno a nuestra forma de trabajar desde el desarrollo hasta la implementación continua.</p>
+
+<p>La idea es documentar el estado y evolución de nuestra metodología como referencia interna del equipo y al mismo tiempo compartir nuestras estrategias con todo aquel que quiera aprovecharlas, discutirlas, etc.</p>
+
+<p>Elijo este formato en lugar de utilizar un wiki por dos motivos:</p>
+
+<ul>
+<li>Permite apreciar la evolución histórica del documento.</li>
+<li>Resulta conveniente y oportuno para ejercitar nuestro workflow basado en github.</li>
+</ul>
+
+<h2>
+<a id="objetivo" class="anchor" href="#objetivo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Objetivo</h2>
+
+<p>Nos proponemos adoptar mejores prácticas, procesos, cultura y metodología tomados del movimiento open source para aplicarlos al desarrollo de software en el sector público.</p>
+
+<p>De manera similar a como el movimiento <a href="http://paypal.github.io/InnerSourceCommons/index.html">inner source</a> refrezca las prácticas en las empresas privadas en posde  aumentar su eficiencia y calidad, nos valemos de estos recursos para ganar en economía, agilidad y calidad en el estado.</p>
+
+<h2>
+<a id="filosofía" class="anchor" href="#filosof%C3%ADa" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Filosofía</h2>
+
+<blockquote>
+<p>“Escribe programas que hagan una cosa y la hagan bien, que trabajen en armonía con 
+otros y que manejen flujos de texto, pues esta es una interfaz universal.” – Doug Mcllroy</p>
+</blockquote>
+
+<h2>
+<a id="entrega-contínua" class="anchor" href="#entrega-cont%C3%ADnua" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Entrega contínua</h2>
+
+<h2>
+<a id="operaciones" class="anchor" href="#operaciones" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Operaciones</h2>
+
+<p>La consigna es "automatizarlo todo". </p>
+
+<p>Expresamos la infraestructura como código para ganar en reproducibilidad e integrar su evolución a nuestro flujo de trabajo cotidiano.</p>
+
+<p>Cultivamos la estrategia chat ops, tanto como herramienta de automatización como para mantener a todo el equipo en una misma página.</p>
+
+<p>Nuestro equipo de operaciones no hace prácticamente nada sobre la infraestructura en si misma. Su trabajo consiste en diseñarla y programar a Juanito (nuestro chat bot basado en hubot) para que haga el trabajo duro por nosotros.<img src="https://cdn.rawgit.com/MinEduTDF/manual/master/datacenter.mmd.png" alt="Diagrama de prueba"></p>
+
+<h2>
+<a id="arquitectura" class="anchor" href="#arquitectura" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Arquitectura</h2>
+
+<p>Actualmente se presentan dos tipos de aplicaciones monolíticas bién diferenciados:</p>
+
+<ul>
+<li>Aplicaciones programadas desde cero, sin utilizar librerías ni patrones de diseño como MVC, ORM, etc.</li>
+<li>Aplicaciones basadas en framework MVC más plugins.</li>
+</ul>
+
+<p><img src="https://cdn.rawgit.com/MinEduTDF/manual/master/monolitos.mmd.png" alt="Diagrama de prueba">
+<em>El usuario interactua con una diversidad de interfaces.</em></p>
+
+<p>El objetivo es desarrollar una migración progresiva hacia una arquitectura de microservicios fuertemente modularizada. Que se apoye sobre una gestión automatizada de dependencias y que presente al usuario una única interface que integra de manera transparente todos los servicios.</p>
+
+<p>Esto favorece la manejabilidad de los proyectos al dividirlos en módulos pequeños, bién documentados y testeados y agiliza las operaciones al tiempo que optimiza la utilización de recursos materiales.</p>
+
+<p><img src="https://cdn.rawgit.com/MinEduTDF/manual/master/microservicios.mmd.png" alt="Diagrama de prueba">
+<em>Todos los servicios se integran en una única interface simplificando la tarea del usuario.</em></p>
+
+<h2>
+<a id="dependencias" class="anchor" href="#dependencias" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Dependencias</h2>
+
+<h2>
+<a id="guías-de-estilo" class="anchor" href="#gu%C3%ADas-de-estilo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Guías de estilo</h2>
+
+<h2>
+<a id="documentación" class="anchor" href="#documentaci%C3%B3n" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Documentación</h2>
+
+<h2>
+<a id="tests" class="anchor" href="#tests" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tests</h2>
+
+<h2>
+<a id="control-de-calidad" class="anchor" href="#control-de-calidad" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Control de calidad</h2>
+
+<h2>
+<a id="workflow" class="anchor" href="#workflow" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Workflow</h2>
+
+<ul>
+<li>
+<p>1º- Le pedimos a Juanito que nos prepare un pipeline de entrega contínua para alguno de los siguientes tipos de proyectos:</p>
+
+<ul>
+<li>Módulo javascript.</li>
+<li>Aplicación javascript.</li>
+<li>Módulo php.</li>
+<li>Aplicación php.</li>
+<li>Módulo hubot.</li>
+</ul>
+</li>
+<li><p>2º- Unos segundos después, Juanito nos provee la url del nuevo repositorio junto con instrucciones para empezar a trabajar.</p></li>
+<li><p>3º- Clonamos el repositorio.</p></li>
+<li><p>4º- Instalamos dependencias.</p></li>
+<li><p>5º- Creamos un branch de nombre descriptivo.</p></li>
+<li><p>6º- Codeamos actualizando tests y documentación para reflejar los cambios.</p></li>
+<li><p>7º- Ejecutamos git push originnombredelbranch.</p></li>
+<li><p>8º- Se ejecutan una serie de validaciones automáticas.</p></li>
+<li><p>9º- Se crea pull request.</p></li>
+<li><p>10º- Se valida el ódigo en el <a href="servidor%20de%20integraci%C3%B3n">travis.ci</a>.</p></li>
+<li><p>11º- Si todo anduvo bién, Juanito avisa a los responsables de realizar la revisión de pares.</p></li>
+<li><p>12º- Una vez aprobada la pull request se publica una nueva versión, respetando versionado semántico, que se pone en producción automáticamente.</p></li>
+<li><p>13º- Juanito avisa que se ha publicado una nueva versión y felicita al autor.</p></li>
+</ul>
+
+<h2>
+<a id="diseño--experiencia-de-usuario" class="anchor" href="#dise%C3%B1o--experiencia-de-usuario" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Diseño / Experiencia de usuario</h2>
+
+<h2>
+<a id="código-de-conducta" class="anchor" href="#c%C3%B3digo-de-conducta" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Código de conducta</h2>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/MinEduTDF/manual">Manual</a> is maintained by <a href="https://github.com/MinEduTDF">MinEduTDF</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
