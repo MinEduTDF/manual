@@ -80,6 +80,20 @@ Esto favorece la manejabilidad de los proyectos al dividirlos en módulos peque�
 
 ## Control de calidad
 
+Una de las prácticas más potentes florecida en el movimiento open source es la exhaustiva utilización de herramientas automatizadas para el control de calidad.
+
+Su implementación nos permite brindar garantías en cuanto a estabilidad, seguridad, legibilidad del código, etc. al tiempo que crecemos como desarrolladores aprendiendo de un feedback objetivo.
+
+En este sentido, el plan de trabajo consiste en:
+* Implementar estas herramientas en todos nuestros desarrollos.
+* Elevar progresivamente las exigencias en cuanto a complegidad del código, normas de estilo, cobertura de tests, etc.
+
+La idea es permitir durante el tiempo que resulte necesario para apropiarse de las prácticas, la apertura de pull requests que incluyan código pobremente documentado y testeado e incluso la puesta en producción de código con baja puntuación de standares de calidad.
+
+Este período permite continuar con el desarrollo como se venía dando pero enriquecido por el feedback de las herramientas y la tutoría de otros miembros del equipo a travez de aportes en el proceso de pull request.
+
+De esta manera se favorece una familiarización con el proceso sin obstaculizar el trabajo cotidiano permitiendo al desarrollador capitalizar algunos de los beneficios de estas prácticas manteniendo su frustración al mínimo posible.
+
 ## Workflow
 
 * 1º- Le pedimos a Juanito que nos prepare un pipeline de entrega contínua para alguno de los siguientes tipos de proyectos:
