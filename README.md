@@ -35,6 +35,12 @@ Nos proponemos adoptar mejores prácticas, procesos, cultura y metodología toma
 
 De manera similar a como el movimiento [inner source](http://paypal.github.io/InnerSourceCommons/index.html) refrezca las prácticas en las empresas privadas en posde  aumentar su eficiencia y calidad, nos valemos de estos recursos para ganar en economía, agilidad y calidad en el estado.
 
+Algunas de las ventajas que ofrece este enfoque son:
+* La unificación de criterios y mejores prácticas entre equipos dispersos en una multiplicidad de dependencias.
+* La transparencia en cuanto a avances, aprovechamiento de recursos y calidad.
+* El intercambio de aportes entre equipos aprovechando una capacidad instalada diversa y dispersa. Por ejemplo, quién mejor se desenvuelve en el ámbito de la experiencia de usuario puede realizar aportes a todas las aplicaciones, mejorando notablemente las interfaces al tiempo que son puestas en valor su experiencia y habilidades.
+* Una mejora progresiva de la calidad mediante la utilización de una serie de herramientas que permiten su cuantificación.
+
 ## Filosofía
 
 > “Escribe programas que hagan una cosa y la hagan bien, que trabajen en armonía con 
