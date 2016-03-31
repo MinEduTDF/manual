@@ -52,11 +52,29 @@ Algunas de las ventajas que ofrece este enfoque son:
 
 La consigna es "automatizarlo todo". 
 
-Expresamos la infraestructura como código para ganar en reproducibilidad e integrar su evolución a nuestro flujo de trabajo cotidiano.
+Expresar la infraestructura como código para ganar en reproducibilidad e integrar su evolución a nuestro flujo de trabajo cotidiano.
 
-Cultivamos la estrategia chat ops, tanto como herramienta de automatización como para mantener a todo el equipo en una misma página.
+Cultivar la estrategia chat ops, tanto como herramienta de automatización como para mantener a todo el equipo en una misma página.
 
-Nuestro equipo de operaciones no hace prácticamente nada sobre la infraestructura en si misma. Su trabajo consiste en diseñarla y programar a Juanito (nuestro chat bot basado en hubot) para que haga el trabajo duro por nosotros.![Datacenter](https://cdn.rawgit.com/MinEduTDF/manual/master/datacenter.mmd.png)
+Nuestro equipo de operaciones no debería hacer prácticamente nada sobre la infraestructura en si misma. Su trabajo consiste en diseñarla y programar a Juanito (nuestro chat bot basado en hubot) para que haga el trabajo duro por nosotros.
+
+El diseño actual cuenta con dos servidores proxmox sobre los que corren una serie de máquinas virtuales mayoritariamente linux.
+
+Cada máquina virtual alberga el stack completo de una aplicación, desde el sistema operativo hasta el servidor web.
+
+Esto permitió ganar en reproducibilidad y una mayor flexibilidad a la hora de gestionar los recursos.
+
+La dificultad que implica configurar un cluster capaz de correr este tipo de arquitectura, obstaculizó el avance en terminos de escalado, redundancia y alta disponibilidad.
+
+De presentarse hoy una falla de harware en alguno de los servidores, el equipo de operaciones se encuentra en condiciones de reestablecer los servicios en pocas horas.
+
+Se dispone, también, de algunos servidores más, actualmente en desuso.
+
+En esta nueva etapa, la propuesta consiste en migrar progresivamente hacia la implememtación de un cluster coreOS de cuatro servidores mas reverse proxy mas control plane.
+
+Nos encontramos ejercitando y familiarizandonos con las herramientas de gestión coreOS en entornos de desarrollo basados en Vagrant al tiempo que desarrollamos los módulos necesarios para la automátización con Juanito.
+
+Resulta crítico para el real aprovechamiento de este diseño, el que el equipo de desarrollo acompañe los avances realizando las modificaciones necesarias para que las aplicaciones cumplan con requerimientos de aplicaciones cloud native (principalmente que los procesos sean stateless).![Datacenter](https://cdn.rawgit.com/MinEduTDF/manual/master/datacenter.mmd.png)
 
 
 ## Arquitectura
