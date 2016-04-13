@@ -22,7 +22,19 @@
 
 ## Redes
 
-- [ ] Informe del estado de la red en toda la provincia. Que incluya estado, requisitos y prioridades.
+- [x] Informe del estado de la red en toda la provincia. Que incluya estado, requisitos y prioridades.
+- Conectorizar clientes pendientes: 
+- [ ] Jardín N° 24. (Valle de Andorra).
+- [ ] Nodo Radio Nacional.
+- [ ] Nodo 640 Viviendas.
+- [ ] Aulas Digitales.
+- [ ] Escuela 1.
+- [ ] Sábato.
+- [ ] Jardín 8.
+- [ ] Kloketen Pipo.
+- [ ] Jardín 20.
+- [ ] Escuela 41.
+- [ ] Jardín 19.
 
 ## Asistencia
 
@@ -46,5 +58,3 @@
 - [ ] Gestión y procesamiento de datos.
 
 ## Decyt
-
-
