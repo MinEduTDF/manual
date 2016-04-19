@@ -7,6 +7,7 @@
   - [Filosofía](#filosof%C3%ADa)
   - [Entrega contínua](#entrega-cont%C3%ADnua)
   - [Operaciones](#operaciones)
+  - [Seguridad](#seguridad)
   - [Arquitectura](#arquitectura)
   - [Dependencias](#dependencias)
   - [Guías de estilo](#gu%C3%ADas-de-estilo)
@@ -75,6 +76,16 @@ En esta nueva etapa, la propuesta consiste en migrar progresivamente hacia la im
 Nos encontramos ejercitando y familiarizandonos con las herramientas de gestión coreOS en entornos de desarrollo basados en Vagrant al tiempo que desarrollamos los módulos necesarios para la automátización con Juanito.
 
 Resulta crítico para el real aprovechamiento de este diseño, el que el equipo de desarrollo acompañe los avances realizando las modificaciones necesarias para que las aplicaciones cumplan con requerimientos de aplicaciones cloud native (principalmente que los procesos sean stateless).![Datacenter](https://cdn.rawgit.com/MinEduTDF/manual/master/datacenter.mmd.png)
+
+## Seguridad
+
+### Https
+
+Toda comunicación entre los usuarios y nuestros servicios es encriptada mediante la utilización de certificados ssl de alta calidad.
+
+Para gestionarlos de manera automatizada ante [letsencrypt](https://letsencrypt.org) utilizamos [docker-letsencrypt-proxy-companion]( https://github.com/JrCs/docker-letsencrypt-nginx-proxy-companion/blob/master/README.md).
+
+Esto nos permite contar con certificados gratuitos, de calidad y que se renuevan automáticamente evitando las incómodas y frustrantes advertencias sobre certificados de seguridad caducos.
 
 
 ## Arquitectura
