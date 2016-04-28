@@ -164,6 +164,13 @@ Esto favorece la manejabilidad de los proyectos al dividirlos en módulos peque�
 
 ## Dependencias
 
+Todas las dependencias serán manejadas mediante la utilización de gestores locales por repositorio (npm, composer).
+
+Esto facilita su actualización, evita la duplicación de código, disminuye el tamaño de los repositorios y permite correr distintas versiones en un mismo sistema.
+
+Otra ventaja es que mediante el uso programático podemos ensayar una actualización que sólo será puesta en producción de resultar exitosa sin mediar intervención humana.
+
+
 ## Guías de estilo
 
 ## Documentación
