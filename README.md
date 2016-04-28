@@ -230,3 +230,5 @@ De esta manera se favorece una familiarización con el proceso sin obstaculizar 
 ## Diseño / Experiencia de usuario
 
 ## Código de conducta
+
+En función de perseguir la conformación de una comunidad segura e inclusiva, todos nuestros repositorios adherirán como código de conducta al [contributor covenant](http://contributor-covenant.org/version/1/4/es/code_of_conduct.md).
