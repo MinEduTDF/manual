@@ -8,6 +8,7 @@
   - [Entrega contínua](#entrega-cont%C3%ADnua)
   - [Operaciones](#operaciones)
   - [Seguridad](#seguridad)
+  - [Código heredado](#código-heredado)
   - [Arquitectura](#arquitectura)
   - [Dependencias](#dependencias)
   - [Guías de estilo](#gu%C3%ADas-de-estilo)
