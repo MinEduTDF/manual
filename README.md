@@ -87,6 +87,62 @@ Para gestionarlos de manera automatizada ante [letsencrypt](https://letsencrypt.
 
 Esto nos permite contar con certificados gratuitos, de calidad y que se renuevan automáticamente evitando las incómodas y frustrantes advertencias sobre certificados de seguridad caducos.
 
+## Código heredado
+
+Durante los últimos años se han desarrollado alrededor de quince aplicaciones destinadas a resolver diversos aspectos de la gestión ministerial.
+
+Estas constituyen un capital invaluable en términos de análisis, feedback de usuarios y experiencia en producción.
+
+Con el propósito de capitalizar y poner en valor estos esfuerzos, emprendemos un proceso de modernización del software a desarrollarse en varias etapas.
+
+### Puesta a punto para liberación.
+
+* Mover datos de conección a base de datos a variables de entorno.
+  * Disminuye el riesgo de publicar credenciales accidentalmente.
+  * Conforma con aplicaciones de doce factores.
+  * Simplifica la configuración para el desarrollo en entornos virtualizados.
+* Implementación del driver PDO.
+  * El driver mysql ha sido depreciado.
+  * PDO abstrae la base de datos volviendo trivial un cambio de motor en caso de ser necesario.
+  * Simplifica notablemente la tarea de sanitizar la entrada de usuario.
+* Sanitización de la entrada de usuario.
+  * Previene ataques de inyección sql.
+  * Previene ataques xxs.
+* Abstraer la conección a base de datos.
+  * Evita la duplicación de código.
+  * Mejora la performance de la aplicación al evitar establecer una nueva conección por ruta.
+* Hashing de passwords.
+  * Incrementa la privacidad de los usuarios.
+  * Previene el filtrado intencional o no de credenciales.
+
+### Sustentabilidad
+
+* Implementar composer para gestión de dependencias.
+  * Hace más liviano el repositorio.
+  * Evita la duplicación de código.
+  * Viabiliza la actualización.
+  * Permite la gestión programática de dependencias.
+* Implementar php code sniffer y normas de estilo.
+  * Mejora la legibilidad del código.
+  * Permite evitar errores comunes.
+  * Viabiliza la colaboración.
+* Implementar migraciones de bases de datos.
+  * Permite mantener la base de datos en control de versiones.
+  * Facilita la tarea de modificar schemas en producción.
+  * Mejora notablemente la experiencia en la colaboración al contar el desarrollador con la base de datos exacta para cada versión del software.
+* Dockerizar.
+  * Agiliza la colaboración.
+  * Mejora la reproducibilidad.
+  * Evita sorpresas ante la puesta en producción.
+  * Permite integrar a nuestro pipeline automatizado de entrega continua.
+
+### Separación de responsabilidades
+
+* Refactorización en MVC.
+  * Separa responsabilidades.
+  * Ordena el código.
+  * Facilita la colaboración.
+
 
 ## Arquitectura
 
