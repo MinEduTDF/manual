@@ -175,6 +175,52 @@ Otra ventaja es que mediante el uso programático podemos ensayar una actualizac
 
 ## Documentación
 
+Todos nuestros repositorios contarán con una serie de documentos orientados a viabilizar la colaboración y construir comunidades saludables e inclusivas.
+
+Para esto, creamos un repositorio que contiene documentos y plantillas.
+
+Todavía estamos estudiando la mejor manera de utilizarlo como dependencia en diversos tipos de proyectos para simplificar su utilización.
+
+Incluye:
+
+### README.md
+
+Plantilla minimalista, pensada para documentar
+
+* Instalación
+* Ejemplo
+* Api
+* Información para colaboradores.
+
+### CONTRIBUTING.md
+
+Documento orientado a fomentar y ordenar la colaboración en todas sus formas.
+
+* Seguridad
+* Issues
+* Código
+* Difusión
+
+### LICENSE.md
+
+La licencia open source que utilizamos.
+
+### CODE_OF_CONDUCT.md
+
+Versión en español del "Contributor Covennant".
+
+Todavía buscamos la mejor manera de convertirlo en dependencia a fin de mantenerlo actualizado.
+
+### ISSUE_TEMPLATE
+
+Aparece como contenido por defecto al crear un nuevo issue.
+
+Está diseñado para orientar al usuario en la creación de issues que provean toda la información necesaria para afrontar el asunto en cuestión.
+
+### PULL_REQUEST_TEMPLATE
+
+Cumple la doble función de simplificar la tarea de revisión y concientizar sobre aspectos a tener en cuenta al momento de realizar un aporte.
+
 ## Tests
 
 ## Control de calidad
